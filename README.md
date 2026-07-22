@@ -2,6 +2,8 @@
 
 A native Windows desktop app that turns a local folder of your own FLAC files into a proper music library (i was bored)
 
+![image](https://github.com/peanutsloveem/franks-ocean/blob/main/preview)
+
 It doesn't ship with any music, you have to install them on your own, I'm not saying where. Point it at a folder on your own drive that already contains your FLAC files, and it builds the library from what's there.
 
 ## Requirements
