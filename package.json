@@ -1,0 +1,41 @@
+{
+  "name": "franks-ocean",
+  "version": "1.0.0",
+  "description": "A native FLAC music player for your local Frank Ocean library",
+  "main": "main.js",
+  "author": "You",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^43.2.0",
+    "electron-builder": "^26.15.3"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "music-metadata": "^11.14.0"
+  },
+  "build": {
+    "appId": "com.local.franksocean",
+    "productName": "Frank's Ocean",
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "allowScripts": {
+    "electron@31.7.7": true,
+    "electron-winstaller@5.4.0": true
+  }
+}
