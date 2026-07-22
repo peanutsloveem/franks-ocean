@@ -12,7 +12,7 @@ It doesn't ship with any music, you have to install them on your own, I'm not sa
 ## Run it in development
 
 ```bash
-cd fo-player
+cd folder/to/franks-ocean
 npm install
 npm start
 ```
