@@ -1,4 +1,4 @@
-# FO Player
+# Frank's Ocean
 
 A native Windows desktop app that turns a local folder of your own FLAC files into a proper music library (i was bored)
 
